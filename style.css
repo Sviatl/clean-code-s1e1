@@ -40,7 +40,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.section-add__task-row-wrapper {
   display: flex;
 }
 
@@ -74,8 +74,7 @@ button {
 }
 
 /* Heading */
-.h2,
-.new-task {
+.h2 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,12 +102,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task {
-  display: block;
+.section-add__h2 {
   margin: 0 0 20px;
 }
 
-#new-task {
+#section-add__input-add-task {
   width: 318px;
 }
 
